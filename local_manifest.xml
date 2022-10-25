@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Tan"
+          fetch="https://github.com/Tanmsyffa"/>
+
+  <remote name="PE"
+          fetch="https://github.com/PixelExperience"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Tan" revision="tiramisu"/>
+  <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="Tan" revision="13"/>
+
+ <!-- Kernel Header -->
+  <project path="kernel/xiaomi/sm6225-common_header" name="kernel_xiaomi_sm6225-common_header" remote="Tan"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="Tan" revision="lineage-20.0"/>
+  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="Tan"/>
+  
+ <!-- Extras -->
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="PE" revision="thirteen"/>
+
+</manifest>
