@@ -4,6 +4,9 @@
   <remote name="Tan"
           fetch="https://github.com/Tanmsyffa"/>
 
+  <remote name="evox"
+          fetch="https://github.com/Evolution-X"/>
+
  <!-- Device Trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Tan" revision="tiramisu"/>
   <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="Tan" revision="13"/>
@@ -14,5 +17,8 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="Tan" revision="lineage-20.0"/>
   <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="Tan" revision="lineage-20.0"/>
+
+ <!-- Extras -->
+  <project path="device/qcom/sepolicy_vndr-legacy-um"  name="device_qcom_sepolicy_vndr-legacy-um" remote="evox" revision="tiramisu"/>
 
 </manifest>
